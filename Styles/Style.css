@@ -43,7 +43,7 @@
 }
 .subContentBoody > .containerSpaceWord{
     width: 90%;
-    height: 50px;
+    height: 75px;
     background-color: aqua;
     display: flex;
     justify-content: center;
@@ -56,10 +56,15 @@
     height: 20px;
     background-color: bisque;
 }
-.containerSpaceWord > .SpaceWord{
+.containerSpaceWord > .spaceWord{
     width: 90%;
-    height: 25px;
+    height: 35px;
     background-color: bisque;
+}
+.spaceWord > .spaceShart{
+    border-radius: 5px;
+    width: 97%;
+    height: 25px;
 }
 .subContentBoody > .containerSelectTranslator{
     width: 50%;
@@ -69,4 +74,71 @@
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+}
+.subContentBoody > .containerButtomTranslate{
+    width: 90%;
+    height: 40px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerButtomTranslate > .buttomTranslate{
+    width: 90%;
+    height: 30px;
+    background-color: rgb(13, 6, 238);
+    border-radius: 5px;
+    color: white;
+    border-color: rgb(13, 6, 238);
+    cursor: pointer;
+}
+.subContentBoody > .containerButtomResponse{
+    width: 90%;
+    height: 40px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerButtomResponse > .buttomResponse{
+    width: 90%;
+    height: 30px;
+    background-color: rgb(233, 233, 238);
+    border-radius: 5px;
+    border-color: aliceblue;
+    cursor: pointer;
+}
+.subContentBoody > .containerTittleCategory{
+    width: 90%;
+    height: 40px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerTittleCategory > .tittleCategory{
+    width: 90%;
+    height: 35px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+}
+.subContentBoody > .containerSelectCategory{
+    width: 90%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerSelectCategory > .category{
+    width: 15%;
+    height: 35px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
