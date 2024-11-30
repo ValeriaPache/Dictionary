@@ -17,57 +17,59 @@
         <section class="subContentBoody">
             <div class="containerSpaceWord">
                 <div class="tittleWord">
-                    
-                    <p> Palabra/word<p>
+                    <p>Ingrese una palabra<p>
                 </div>
                 <div class="spaceWord">
-                    <input class="spaceShart" type="word" placeholder="Ingrese una palabra">
+                    <input id="wordTranslate" class="spaceLetter" type="text" placeholder="Ingrese una palabra">
                 </div>
             </div>
             <div class="containerSelectTranslator">
-                <p>Ingles</p>
-                <input type="radio" name="" id="">
-                <p>Español</p>
-                <input type="radio" name="" id="">
+                <p>Ingles a español</p>
+                <input type="radio" name="tipTranslate" value="i">
+                <p>Español a Ingles</p>
+                <input type="radio" name="tipTranslate" value="e">
             </div>
             <div class="containerButtomTranslate">
-                <button class="buttomTranslate">Traducir/Translate</button>
+                <button id="btnTranslate" class="buttomTranslate">Traducir/Translate</button>
             </div>
             <div class="containerButtomResponse">
-                <button class="buttomResponse">Respuesta/Response</button>
+                <p id="result">Aquí va la respuesta</p>
             </div>
+        <!-- 
             <div class="containerTittleCategory">
                 <h3 class="tittleCategory">Categorias</h3>
             </div>
             <div class="containerSelectCategory">
                 <div class="category">
                     <p>Animales</p>
-                    <input type="radio" name="" id="">
+                    <input type="radio" name="tipCategory" id="">
                 </div>
                 <div class="category">
                     <p>Frutas</p>
-                    <input type="radio" name="" id="">
+                    <input type="radio" name="tipCategory" id="">
                 </div>
                 <div class="category">
                     <p>Colores</p>
-                    <input type="radio" name="" id="">
+                    <input type="radio" name="tipCategory" id="">
                 </div>
                 <div class="category">
                     <p>Descripciones</p>
-                    <input type="radio" name="" id="">
+                    <input type="radio" name="tipCategory" id="">
                 </div>
                 <div class="category">
                     <p>Habilidades</p>
-                    <input type="radio" name="" id="">
+                    <input type="radio" name="tipCategory" id="">
                 </div>
                 <div class="category">
                     <p>Verbos</p>
-                    <input type="radio" name="" id="">
+                    <input type="radio" name="tipCategory" id="">
                 </div>
             </div>
+        -->
         </section>
     </main>
     
 </body>
-<script src="dictionary.js"></script>
+<script src="Scripts/dictionary.js"></script>
+<script type="module" src="Scripts/index.js"></script>
 </html>

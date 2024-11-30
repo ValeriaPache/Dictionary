@@ -14,7 +14,7 @@
 .contentHeader>.contentTittle{
     width: 40%;
     height: 40px;
-    *background-color: palegreen;
+    /*background-color: palegreen;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@
     height: 35px;
     background-color: bisque;
 }
-.spaceWord > .spaceShart{
+.spaceWord > .spaceLetter{
     border-radius: 5px;
     width: 97%;
     height: 25px;
